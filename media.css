@@ -1,0 +1,228 @@
+@media all and (min-width: 0px) and (max-width: 1269px) {
+    
+    header .items{
+        visibility: hidden;
+    }
+    header .hamBur{
+        display: block;
+    }
+    
+    .main{
+        background: #0c3245;
+    }
+}
+@media all and (min-width: 0px) and (max-width: 1121px) {  
+    
+    
+    header .h_img{
+        width: 200px;
+    }
+    .main h1{
+        width: 85%;
+        font-size: 40px;
+        margin-top: 30px;
+        /* border: 1px solid white; */
+    }
+    
+    .main2{
+        grid-template-columns: repeat(1,1fr);
+        padding: 50px 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .main2 > .box{
+        /* border: 1px solid white; */
+    }
+    .main2 > .box p{
+        color: white;
+        width: 100%;
+        font-size: 15px;
+    }
+    .main2 > .box h1{
+        color: white;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    /*  */
+    
+    .main3{
+        padding: 0 50px;
+    }
+    .main3 > .main3-1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main3 > .main3-1 .box img{
+        height: 100%;
+        width: 100%;
+    }
+    .main3 > .main3-1 .box h2{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    /*  */
+    
+    .main4{
+        padding: 50px 50px;
+    }
+    .main4 >  .m4_head p{
+        color: white;
+        width: 80%;
+    }
+    .main4 > .main4-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;;
+    }
+    .main2 > .main4-1 > .box{
+        /* width: 100%;; */
+        /* border: 1px solid white; */
+    }
+    .main4 > .main4-1 .box h2{
+        width: 90%;
+    }
+    .main4 > .main4-1 .box p{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    /*  */
+    .logos{
+        padding: 50px 0;
+    }
+    .logos p{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        margin: auto;
+    }
+    .logos .imges{
+        width: 100%;
+    }
+
+
+
+    /*  */
+    footer{
+        background: #0c3245;
+        /* border: 1px solid white; */
+        padding: 50px 00px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer .f_conte{
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+    footer .conte{
+        border-bottom: 1px solid ghostwhite;
+        cursor: pointer;
+    }
+    footer .conte > a{
+        display: none;
+    }
+    footer .conte.active > a{
+        display: block;;
+    }
+    footer .conte > a:hover{
+        color: #08cf65;
+        text-decoration: underline;;
+    }
+    footer .conte > h4{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid white; */
+    }
+    footer .conte > h4 .fa-caret-down{
+        transition: 0.2s ease;
+    }
+    footer .conte.active > h4 .fa-caret-down{
+        transform: rotate(180deg);
+    }
+
+    footer .footer_bottom{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer .footer_bottom #social{
+        text-align: end;
+    }
+
+    footer .footer_bottom .side{
+        display: flex;
+        width: 200%;;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer_bottom .side p{
+        margin: 20px;
+    }
+    /*  */
+
+    .main6{
+        padding: 50px 50px;
+        height: auto;
+    }
+    .main6 > .main6-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main6 > .main6-1 > .box:last-child{
+        height: 500px;
+        /* display: none; */
+    }
+
+    .main6 > .main6-1 > .box:first-child{
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+}
+
+/* background-color: #0c3245; */
+
+
+@media all and (min-width: 0px) and (max-width: 760px) {
+
+    
+    .main2 > .box > p{
+        font-size: 25px;
+    }
+    .main2 > .box h1{
+        color: white;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    
+    .main > .inputBx,
+    .main7 > .inputBx{
+        width: 70%;
+        margin: auto;
+        margin-top: 40px;;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        border: 1px solid #fff;
+    }
+    .main > .inputBx input,
+    .main7 > .inputBx input{
+        /* padding: 20px 10px; */
+        width: 96%;
+        font-size: 20px;
+        border: none;
+    }
+    .main > .inputBx > button,
+    .main7 > .inputBx > button{
+        /* padding: 20px 80px; */
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        margin-left: 0;;
+    }
+}
