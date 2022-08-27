@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+a{
+    color: #4488ff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+.main .box{
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0 40px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* border: 1px solid black;; */
+}
+
+.main .box .imgBx{
+    text-align: center;
+    height: 100px;
+    line-height: 0;
+    /* border: 1px solid black; */
+}
+.main .box .imgBx img{
+    width: 250px;
+    line-height: 0;
+    /* height: 100px; */
+}
+.main .box .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 82%;
+    /* border: 1px solid black; */
+}
+.main .box .details form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.main .box .details > .data2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    border: 1px solid black;
+}
+.main .box .details .data2 span{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.main .box .inputBx{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.main .box .inputBx input{
+    padding: 15px 15px;
+    outline-color: royalblue;
+}
+.main .box .inputBx input[type='submit']{
+    background-color: #4488ff;
+    border: none;
+    padding: 15px 0;
+    border-radius: 2px;
+    color: white;
+}
+.main .box .forg{
+    /* border: 1px solid black; */
+}
+
+.main .box .other{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.main .box .other > span{
+    text-align: center;
+    padding: 10px 0;
+}
+.main .box .other .icons{
+    display: flex;
+    gap: 0 20px;
+}
+.main .box .other .icons span{
+    padding: 5px 8px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.main .back{
+    color: #4488ff;
+    cursor: pointer;
+}
