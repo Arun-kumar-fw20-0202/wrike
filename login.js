@@ -1,5 +1,5 @@
 
-var login_data = JSON.parse(localStorage.getItem('user_details'))
+var login_data = JSON.parse(localStorage.getItem('user_details')) || []
 
 document.querySelector('#emailFm').addEventListener("submit",function(e) {
     e.preventDefault();
@@ -23,7 +23,7 @@ document.querySelector('#emailFm').addEventListener("submit",function(e) {
 
     document.querySelector('#passwordFm').addEventListener("submit",function(e){
         e.preventDefault();
-        var sucess;
+
         var password = document.querySelector(".password").value;
 
             for(let i = 0; i<= login_data.length-1; i++){

@@ -20,4 +20,5 @@ document.querySelector('form').addEventListener('submit',function(e){
 
    localStorage.setItem('user_details',JSON.stringify(user_data));
     
+   window.location.href = 'login.html';
 })
